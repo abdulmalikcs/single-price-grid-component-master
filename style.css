@@ -135,12 +135,13 @@ p , span {
     font-weight: 400;
 }
 
-.row > .col-lg-6 > .card .why span {
+.row > .col-lg-6 > .card .why .card-text p {
     font-size: .8rem;
     color:  #E3FFFF;
     font-weight: 400;
     opacity: .7;
     word-break: break-word;
+    margin: 0;
 }
 
 .row > .col-lg-6 > .card .why .card-text{
@@ -166,4 +167,25 @@ p , span {
         height: auto;
     }
 
+    .row > .col-lg-12 > .card .community .title {
+        font-size: 1.4rem;
+    }
+
+    .row > .col-lg-12 > .card .community-nxt {
+        font-size: 1.2rem;
+    }
+
+    .row > .col-lg-12 > .card span {
+        font-size: .9rem;
+    }
+}
+
+@media (max-width:290px) {
+    body .container {
+        margin: 0 20px;
+        height: 140vh
+    }
+    body {
+        overflow: auto;
+    }
 }
