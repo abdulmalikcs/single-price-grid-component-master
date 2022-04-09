@@ -1,0 +1,169 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root {
+    --yellow : hsl(71, 73%, 54%);
+    --blue:hsl(179, 62%, 43%);
+    --light-gray:hsl(204, 43%, 93%);
+    --gray: hsl(218, 22%, 67%);
+}
+
+body .container {
+    width: 635px;
+    height: 100vh;
+}
+
+.row .col-lg-6 .card {
+    height: 260px;
+}
+
+
+.row .col-lg-12 .card {
+    height: 220px;
+}
+
+p , span {
+    font-family: 'Karla', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row > .col-lg-6 , .row > .col-lg-12 {
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+
+.row > .col-lg-12 > .card .card-body , .row > .col-lg-12 > .card .card-body {
+    padding: 35px;
+}
+
+.row > .col-lg-12 > .card{
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+}
+
+.row > .col-lg-12 > .card .card-body{
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+}
+
+
+.row > .col-lg-12 > .card .community .title {
+    font-size: 1.6rem;
+    color:  var(--blue);
+    font-weight: 700;
+}
+
+
+.row > .col-lg-12 > .card .community-nxt {
+    font-size: 1.4rem;
+    color:  var(--yellow);
+    font-weight: 700;
+}
+
+.row > .col-lg-12 > .card span {
+    font-size: 1rem;
+    color:  var(--gray);
+    font-weight: 400;
+}
+
+
+.row > .col-lg-6 > .card .month .title {
+    font-size: 1.3rem;
+    color:  #E3FFFF;
+    font-weight: 400;
+}
+
+.row > .col-lg-6 > .card .month span {
+    font-size: 2rem;
+    color:  #E3FFFF;
+    font-weight: 400;
+    opacity: 1;
+}
+
+.container-price {
+    display: flex;
+    align-items: center;
+}
+
+.container-price p {
+    margin-bottom: 0;
+    color:  #E3FFFF;
+    font-weight: 400;
+    opacity: .4;
+    padding-left: 10px;
+}
+
+.row > .col-lg-6 > .card .month .access {
+    font-size: 1rem;
+    color:  #E3FFFF;
+    font-weight: 400;
+    opacity: .8;
+}
+
+
+.row > .col-lg-6 > .card .month button {
+    background-color: #BFDF32;
+    width: 90%;
+    color: white;
+    margin-left: 5px;
+    margin-top: 10px;
+    height: 45px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    border: none;
+
+}
+
+
+.row > .col-lg-6 > .card .why .title {
+    font-size: 1.2rem;
+    color:  #E3FFFF;
+    font-weight: 400;
+}
+
+.row > .col-lg-6 > .card .why span {
+    font-size: .8rem;
+    color:  #E3FFFF;
+    font-weight: 400;
+    opacity: .7;
+    word-break: break-word;
+}
+
+.row > .col-lg-6 > .card .why .card-text{
+    padding-right: 60px;
+}
+
+
+@media (max-width:575px) {
+    body .container {
+        width: auto;
+        margin: 0 20px;
+    }
+    .row > .col-lg-12 > .card .card-body, .row > .col-lg-6 > .card .card-body {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 10px 20px;
+    }
+
+    .row .col-lg-6 .card ,.row .col-lg-12 .card {
+        height: auto;
+    }
+}
