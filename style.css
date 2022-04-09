@@ -89,8 +89,7 @@ p , span {
 .row > .col-lg-6 > .card .month span {
     font-size: 2rem;
     color:  #E3FFFF;
-    font-weight: 400;
-    opacity: 1;
+    font-weight: 700;
 }
 
 .container-price {
@@ -180,7 +179,7 @@ p , span {
     }
 }
 
-@media (max-width:290px) {
+@media (max-width:374px) {
     body .container {
         margin: 0 20px;
         height: 140vh
