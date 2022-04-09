@@ -39,7 +39,7 @@ p , span {
     
 }
 
-.row > .col-lg-12 > .card .card-body , .row > .col-lg-12 > .card .card-body {
+.row > .col-lg-12 > .card .card-body , .row > .col-lg-6 > .card .card-body {
     padding: 35px;
 }
 
@@ -116,9 +116,8 @@ p , span {
 
 .row > .col-lg-6 > .card .month button {
     background-color: #BFDF32;
-    width: 90%;
+    width: 100%;
     color: white;
-    margin-left: 5px;
     margin-top: 10px;
     height: 45px;
     font-family: 'Karla', sans-serif;
@@ -166,4 +165,5 @@ p , span {
     .row .col-lg-6 .card ,.row .col-lg-12 .card {
         height: auto;
     }
+
 }
