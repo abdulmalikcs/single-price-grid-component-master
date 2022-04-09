@@ -188,3 +188,10 @@ p , span {
         overflow: auto;
     }
 }
+
+
+@media (max-height:450px) {
+    body .container {
+        height: 210vh;
+    }
+}
